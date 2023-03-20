@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-backdrop: url(https://imgur.com/MCG3XaU);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 320;
@@ -60,19 +60,19 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Poppins';
-  --dplus-font-body: 'Roboto';
-  --dplus-font-header: 'Righteous';
+  --dplus-font-ui: 'Gotham';
+  --dplus-font-body: 'Gotham';
+  --dplus-font-header: 'Gotham';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
-  --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 20%;
-  --dplus-radius-server: 20%;
+  --dplus-radius-ui: 25px;
+  --dplus-radius-avatar: 35%;
+  --dplus-radius-server: 15%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
-  --dplus-spacing-ui: 10px;
+  --dplus-spacing-ui: 6px;
 
 /* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
    --dplus-spacing-app: 10px;
